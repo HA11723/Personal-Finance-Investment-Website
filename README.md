@@ -23,7 +23,7 @@ Personal/
 ├── contact.html        # Contact page
 ├── styles.css          # Main stylesheet
 ├── script.js           # JavaScript functionality
-└── README.md          # This file
+└── README.md        
 ```
 
 ## 🛠️ Setup Instructions
@@ -34,56 +34,10 @@ Personal/
 2. **Upload** all files to your web server
 3. **Test** the website by visiting your domain
 
-### 2. AdSense Integration
-
-#### Replace AdSense Codes
-
-In all HTML files, replace the placeholder AdSense codes:
-
-```html
-<!-- Replace this in all HTML files -->
-<script
-  async
-  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456"
-  crossorigin="anonymous"
-></script>
-```
-
-With your actual AdSense code:
-
-```html
-<!-- Your actual AdSense code -->
-<script
-  async
-  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_PUBLISHER_ID"
-  crossorigin="anonymous"
-></script>
-```
-
-#### Update Ad Units
-
-Replace all ad unit codes:
-
-```html
-<!-- Replace all instances of this -->
-<ins
-  class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-1234567890123456"
-  data-ad-slot="1234567890"
-  data-ad-format="auto"
-  data-full-width-responsive="true"
-></ins>
-```
-
-With your actual ad unit codes from AdSense dashboard.
 
 ### 3. Customization
 
 #### Branding
-
-1. **Logo**: Replace "FinanceWise" with your brand name in all HTML files
-2. **Colors**: Update the color scheme in `styles.css`:
    - Primary color: `#2563eb`
    - Secondary color: `#1d4ed8`
    - Background gradients
@@ -96,8 +50,6 @@ With your actual ad unit codes from AdSense dashboard.
 4. **Contact Information**: Update email and social media links
 
 #### Images
-
-Replace placeholder images with your own:
 
 - Hero images
 - Article thumbnails
@@ -120,45 +72,7 @@ Replace placeholder images with your own:
 - **Use responsive ads** for mobile compatibility
 - **Monitor performance** in AdSense dashboard
 
-## 🎨 Customization Guide
 
-### Color Scheme
-
-Update these CSS variables in `styles.css`:
-
-```css
-/* Primary Colors */
---primary-color: #2563eb;
---primary-dark: #1d4ed8;
---secondary-color: #667eea;
---accent-color: #764ba2;
-
-/* Text Colors */
---text-primary: #1f2937;
---text-secondary: #6b7280;
---text-light: #9ca3af;
-```
-
-### Typography
-
-The website uses Inter font from Google Fonts. You can change it by:
-
-1. Update the Google Fonts link in HTML files
-2. Change `font-family: 'Inter'` in CSS
-
-### Layout Modifications
-
-#### Adding a Sidebar
-
-1. Create a new CSS class for sidebar layout
-2. Update grid templates in main content areas
-3. Add sidebar content to HTML files
-
-#### Adding More Pages
-
-1. Create new HTML file following the same structure
-2. Update navigation menu in all files
-3. Add corresponding CSS styles
 
 ## 📱 Mobile Optimization
 
@@ -325,19 +239,4 @@ Add your GA4 tracking code to all HTML files:
 - **Core Web Vitals**
 - **User experience**
 
-## 📞 Support
 
-For questions or customization help:
-
-1. **Check documentation** first
-2. **Review code comments**
-3. **Test in development** environment
-4. **Backup before changes**
-
-## 📄 License
-
-This project is for personal and commercial use. Please respect the original design while customizing for your needs.
-
----
-
-**Good luck with your personal finance website! 🚀**
