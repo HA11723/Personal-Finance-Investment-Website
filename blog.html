@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog - FinanceWise | Personal Finance & Investment Articles</title>
+    <meta
+      name="description"
+      content="Expert articles on personal finance, investing, budgeting, debt management, and wealth building. Stay informed with our latest financial insights."
+    />
+
+    <!-- AdSense Code -->
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="nav-logo">
+            <h1>FinanceWise</h1>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="blog.html" class="nav-link active">Blog</a></li>
+            <li><a href="resources.html" class="nav-link">Resources</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Finance Blog</h1>
+        <p>
+          Expert insights on personal finance, investing, and wealth building
+        </p>
+      </div>
+    </section>
+
+    <!-- Search and Filter Section -->
+    <section class="blog-filters">
+      <div class="container">
+        <div class="search-filter-container">
+          <div class="search-box">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search articles..."
+            />
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="category-filter">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="investing">
+              Investing
+            </button>
+            <button class="filter-btn" data-category="budgeting">
+              Budgeting
+            </button>
+            <button class="filter-btn" data-category="debt">
+              Debt Management
+            </button>
+            <button class="filter-btn" data-category="real-estate">
+              Real Estate
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AdSense Banner -->
+    <div class="adsense-banner">
+      <ins
+        class="adsbygoogle"
+        style="display: block"
+        data-ad-client="ca-pub-1234567890123456"
+        data-ad-slot="1234567890"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+
+    <!-- Featured Article -->
+    <section class="featured-article">
+      <div class="container">
+        <h2 class="section-title">Featured Article</h2>
+        <article class="featured-article-card">
+          <div class="featured-article-image">
+            <img
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+              alt="Investment Guide"
+            />
+          </div>
+          <div class="featured-article-content">
+            <span class="article-category">Investing</span>
+            <h2>
+              The Complete Guide to Building Your First Investment Portfolio
+            </h2>
+            <p>
+              Building your first investment portfolio can feel overwhelming,
+              but it doesn't have to be. This comprehensive guide will walk you
+              through everything you need to know to create a diversified
+              portfolio that aligns with your financial goals and risk
+              tolerance.
+            </p>
+            <div class="article-meta">
+              <span><i class="fas fa-calendar"></i> January 15, 2024</span>
+              <span><i class="fas fa-clock"></i> 8 min read</span>
+            </div>
+            <a
+              href="blog/complete-guide-investment-portfolio.html"
+              class="read-more"
+              >Read Full Article →</a
+            >
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Blog Articles Grid -->
+    <section class="blog-articles">
+      <div class="container">
+        <h2 class="section-title">Latest Articles</h2>
+        <div class="articles-grid">
+          <!-- Investing Articles -->
+          <article class="article-card" data-category="investing">
+            <div class="article-image">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                alt="Stock Market"
+              />
+            </div>
+            <div class="article-content">
+              <span class="article-category">Investing</span>
+              <h3>How to Start Investing in Stocks: A Beginner's Guide</h3>
+              <p>
+                Learn the fundamentals of stock market investing and how to
+                build a diversified portfolio that aligns with your financial
+                goals.
+              </p>
+              <div class="article-meta">
+                <span><i class="fas fa-calendar"></i> January 12, 2024</span>
+                <span><i class="fas fa-clock"></i> 6 min read</span>
+              </div>
+              <a href="blog/how-to-start-investing.html" class="read-more"
+                >Read More →</a
+              >
+            </div>
+          </article>
+
+          <article class="article-card" data-category="investing">
+            <div class="article-image">
+              <img
+                src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                alt="ETFs"
+              />
+            </div>
+            <div class="article-content">
+              <span class="article-category">Investing</span>
+              <h3>ETFs vs Mutual Funds: Which is Better for Your Portfolio?</h3>
+              <p>
+                Compare ETFs and mutual funds to understand the differences and
+                choose the right investment vehicle for your portfolio.
+              </p>
+              <div class="article-meta">
+                <span><i class="fas fa-calendar"></i> January 10, 2024</span>
+                <span><i class="fas fa-clock"></i> 7 min read</span>
+              </div>
+              <a href="blog/etfs-vs-mutual-funds.html" class="read-more"
+                >Read More →</a
+              >
+            </div>
+          </article>
+
+          <!-- Budgeting Articles -->
+          <article class="article-card" data-category="budgeting">
+            <div class="article-image">
+              <img
+                src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                alt="Budgeting"
+              />
+            </div>
+            <div class="article-content">
+              <span class="article-category">Budgeting</span>
+              <h3>
+                The 50/30/20 Budget Rule: A Simple Way to Manage Your Money
+              </h3>
+              <p>
+                Discover this popular budgeting method that can help you
+                allocate your income effectively and achieve financial
+                stability.
+              </p>
+              <div class="article-meta">
+                <span><i class="fas fa-calendar"></i> January 8, 2024</span>
+                <span><i class="fas fa-clock"></i> 5 min read</span>
+              </div>
+              <a href="blog/50-30-20-budget-rule.html" class="read-more"
+                >Read More →</a
+              >
+            </div>
+          </article>
+
+          <article class="article-card" data-category="budgeting">
+            <div class="article-image">
+              <img
+                src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                alt="Saving Money"
+              />
+            </div>
+            <div class="article-content">
+              <span class="article-category">Budgeting</span>
+              <h3>10 Simple Ways to Save $500+ Per Month</h3>
+              <p>
+                Practical strategies to reduce your monthly expenses and boost
+                your savings without making major lifestyle changes.
+              </p>
+              <div class="article-meta">
+                <span><i class="fas fa-calendar"></i> January 6, 2024</span>
+                <span><i class="fas fa-clock"></i> 4 min read</span>
+              </div>
+              <a href="blog/ways-to-save-money.html" class="read-more"
+                >Read More →</a
+              >
+            </div>
+          </article>
+
+          <!-- Debt Management Articles -->
+          <article class="article-card" data-category="debt">
+            <div class="article-image">
+              <img
+                src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                alt="Debt Management"
+              />
+            </div>
+            <div class="article-content">
+              <span class="article-category">Debt Management</span>
+              <h3>
+                Debt Snowball vs. Debt Avalanche: Which Method Should You
+                Choose?
+              </h3>
+              <p>
+                Compare these two popular debt repayment strategies and find out
+                which one works best for your financial situation.
+              </p>
+              <div class="article-meta">
+                <span><i class="fas fa-calendar"></i> January 4, 2024</span>
+                <span><i class="fas fa-clock"></i> 6 min read</span>
+              </div>
+              <a href="blog/debt-snowball-vs-avalanche.html" class="read-more"
+                >Read More →</a
+              >
+            </div>
+          </article>
+
+          <article class="article-card" data-category="debt">
+            <div class="article-image">
+              <img
+                src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                alt="Credit Score"
+              />
+            </div>
+            <div class="article-content">
+              <span class="article-category">Debt Management</span>
+              <h3>How to Improve Your Credit Score in 6 Months</h3>
+              <p>
+                Follow these proven strategies to boost your credit score and
+                unlock better financial opportunities.
+              </p>
+              <div class="article-meta">
+                <span><i class="fas fa-calendar"></i> January 2, 2024</span>
+                <span><i class="fas fa-clock"></i> 5 min read</span>
+              </div>
+              <a href="blog/improve-credit-score.html" class="read-more"
+                >Read More →</a
+              >
+            </div>
+          </article>
+
+          <!-- Real Estate Articles -->
+          <article class="article-card" data-category="real-estate">
+            <div class="article-image">
+              <img
+                src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                alt="Real Estate"
+              />
+            </div>
+            <div class="article-content">
+              <span class="article-category">Real Estate</span>
+              <h3>
+                First-Time Home Buyer's Guide: Everything You Need to Know
+              </h3>
+              <p>
+                Navigate the home buying process with confidence using this
+                comprehensive guide for first-time buyers.
+              </p>
+              <div class="article-meta">
+                <span><i class="fas fa-calendar"></i> December 30, 2023</span>
+                <span><i class="fas fa-clock"></i> 8 min read</span>
+              </div>
+              <a href="blog/first-time-home-buyer-guide.html" class="read-more"
+                >Read More →</a
+              >
+            </div>
+          </article>
+
+          <article class="article-card" data-category="real-estate">
+            <div class="article-image">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                alt="Real Estate Investment"
+              />
+            </div>
+            <div class="article-content">
+              <span class="article-category">Real Estate</span>
+              <h3>
+                Real Estate Investment: REITs vs. Direct Property Ownership
+              </h3>
+              <p>
+                Compare REITs and direct property ownership to determine the
+                best real estate investment strategy for your portfolio.
+              </p>
+              <div class="article-meta">
+                <span><i class="fas fa-calendar"></i> December 28, 2023</span>
+                <span><i class="fas fa-clock"></i> 7 min read</span>
+              </div>
+              <a href="blog/reits-vs-direct-property.html" class="read-more"
+                >Read More →</a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- AdSense In-Content -->
+    <div class="adsense-banner">
+      <ins
+        class="adsbygoogle"
+        style="display: block"
+        data-ad-client="ca-pub-1234567890123456"
+        data-ad-slot="1234567890"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+      <div class="container">
+        <div class="newsletter-content">
+          <h2>Stay Updated with Financial Insights</h2>
+          <p>
+            Get the latest articles on personal finance, investing, and wealth
+            building delivered to your inbox every week.
+          </p>
+          <form class="newsletter-form">
+            <input
+              type="email"
+              placeholder="Enter your email address"
+              required
+            />
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>FinanceWise</h3>
+            <p>
+              Your trusted source for personal finance education and investment
+              guidance.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="blog.html#investing">Investing</a></li>
+              <li><a href="blog.html#budgeting">Budgeting</a></li>
+              <li><a href="blog.html#debt">Debt Management</a></li>
+              <li><a href="blog.html#real-estate">Real Estate</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="terms.html">Terms of Service</a></li>
+              <li><a href="disclaimer.html">Disclaimer</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 FinanceWise. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
